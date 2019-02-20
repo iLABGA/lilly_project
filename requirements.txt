@@ -1,0 +1,13 @@
+# Framework
+pytest==3.6.3
+selenium
+Appium-Python-Client
+pycmd
+
+# Reporting
+allure-pytest==2.3.2b1
+
+# Data Driven
+pyexcel
+pyexcel-xls
+pyexcel-xlsx

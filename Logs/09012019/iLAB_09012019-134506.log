@@ -1,0 +1,35 @@
+2019-01-09 13:45:52,794 - INFO - ###### TEST EXECUTION STARTED :: test_validate_connecting_medical_device_to_app ######
+2019-01-09 13:45:53,297 - INFO - Element present with locator_properties: //android.widget.TextView[@text='NUM 1'] and locator_type: xpath
+2019-01-09 13:45:53,932 - INFO - Element found with locator_properties: //android.widget.TextView[@text='NUM 1'] and locator_type: xpath
+2019-01-09 13:45:54,010 - INFO - Clicked on the element with locator_properties: //android.widget.TextView[@text='NUM 1'] and locator_type: xpath
+2019-01-09 13:45:54,697 - INFO - Element present with locator_properties: //android.widget.Button[@text='START SCAN'] and locator_type: xpath
+2019-01-09 13:45:55,081 - INFO - Element found with locator_properties: //android.widget.Button[@text='START SCAN'] and locator_type: xpath
+2019-01-09 13:45:55,159 - INFO - Clicked on the element with locator_properties: //android.widget.Button[@text='START SCAN'] and locator_type: xpath
+2019-01-09 13:45:55,808 - INFO - Element present with locator_properties: //android.widget.Button[@text='STOP SCAN'] and locator_type: xpath
+2019-01-09 13:45:56,144 - INFO - Element found with locator_properties: //android.widget.Button[@text='STOP SCAN'] and locator_type: xpath
+2019-01-09 13:45:56,206 - INFO - Clicked on the element with locator_properties: //android.widget.Button[@text='STOP SCAN'] and locator_type: xpath
+2019-01-09 13:46:06,754 - ERROR - Element not present with locator_properties: //android.widget.TextView[@text='meter+06647277 (10:CE:A9:3B:D7:57)'] and locator_type: xpath
+2019-01-09 13:46:06,754 - ERROR - Unable to click on the element with locator_properties: //android.widget.TextView[@text='meter+06647277 (10:CE:A9:3B:D7:57)'] and locator_type: xpath
+2019-01-09 13:46:06,964 - INFO - Element present with locator_properties: //android.widget.Button[@text='CONNECT'] and locator_type: xpath
+2019-01-09 13:46:07,346 - INFO - Element found with locator_properties: //android.widget.Button[@text='CONNECT'] and locator_type: xpath
+2019-01-09 13:46:07,408 - INFO - Clicked on the element with locator_properties: //android.widget.Button[@text='CONNECT'] and locator_type: xpath
+2019-01-09 13:46:22,606 - INFO - Element present with locator_properties: //android.widget.Button[@text='RETRIEVE ALL'] and locator_type: xpath
+2019-01-09 13:46:22,606 - INFO - ### VERIFICATION SUCCESSFUL :: connecting  medical device with app
+2019-01-09 13:46:22,606 - INFO - ### connecting  medical device with app### TEST SUCCESSFUL
+2019-01-09 13:46:22,653 - INFO - ###### TEST EXECUTION STARTED :: test_validate_start_scan_buttons ######
+2019-01-09 13:46:22,809 - INFO - Element present with locator_properties: //android.widget.TextView[@text='NUM 2'] and locator_type: xpath
+2019-01-09 13:46:23,044 - INFO - Element found with locator_properties: //android.widget.TextView[@text='NUM 2'] and locator_type: xpath
+2019-01-09 13:46:23,106 - INFO - Clicked on the element with locator_properties: //android.widget.TextView[@text='NUM 2'] and locator_type: xpath
+2019-01-09 13:46:23,882 - INFO - Element present with locator_properties: //android.widget.Button[@text='START SCAN'] and locator_type: xpath
+2019-01-09 13:46:23,882 - INFO - ### VERIFICATION SUCCESSFUL :: Validate  startscan btnSuccessful
+2019-01-09 13:46:23,882 - INFO - ### Validate  startscan btnSuccessful### TEST SUCCESSFUL
+2019-01-09 13:46:23,928 - INFO - ###### TEST EXECUTION STARTED :: test_validate_stop_scan_buttons ######
+2019-01-09 13:46:24,069 - INFO - Element present with locator_properties: //android.widget.Button[@text='STOP SCAN'] and locator_type: xpath
+2019-01-09 13:46:24,069 - INFO - ### VERIFICATION SUCCESSFUL :: Validate  stopscan btn Successful
+2019-01-09 13:46:24,069 - INFO - ### Validate  stopscan btn Successful### TEST SUCCESSFUL
+2019-01-09 13:46:24,085 - INFO - ###### TEST EXECUTION STARTED :: test_validate_vertical_scroll_find_element ######
+2019-01-09 13:46:27,395 - INFO - Vertically scrolling into the view.
+2019-01-09 13:46:30,738 - INFO - Vertically scrolling into the view.
+2019-01-09 13:46:36,085 - INFO - Element present with locator_properties: //android.widget.Button[@text='STOP SCAN'] and locator_type: xpath
+2019-01-09 13:46:36,085 - INFO - ### VERIFICATION SUCCESSFUL :: Validate vertical scroll and find find element Successful
+2019-01-09 13:46:36,085 - INFO - ### Validate vertical scroll and find find element Successful### TEST SUCCESSFUL

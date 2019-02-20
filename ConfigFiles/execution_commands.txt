@@ -1,0 +1,28 @@
+#### Local Commands #####
+
+## For local execution give --platform=local_android or local_ios
+
+pytest TestScripts/test_manager.py --platform=android --alluredir ExecutionReports/ & allure serve ExecutionReports
+pytest TestScripts/test_manager.py --platform=ios --alluredir ExecutionReports/ & allure serve ExecutionReports
+
+py.cleanup -p
+
+#### Grid Specific Commands ####
+## MAC
+
+pytest TestScripts/test_manager.py --platform=android
+pytest TestScripts/test_manager.py --platform=ios
+
+## WINDOWS
+
+pytest TestScripts/test_manager.py --platform=android
+pytest TestScripts/test_manager.py --platform=ios
+
+#### Cloud Specific Commands ####
+
+pytest TestScripts/test_manager.py --platform=browser_stack
+pytest TestScripts/test_manager.py --platform=sauce_labs
+
+#### Jenkins Specific (Need to work on this) ####
+
+pytest TestScripts/test_manager.py --platform=$PLATFORM
